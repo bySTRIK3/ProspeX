@@ -1,0 +1,14 @@
+📁 ProspeX
+├── 📁 data
+│   ├── raw/
+│   ├── cleaned/
+│   ├── processed/
+│   ├── archive/
+│   └── export/
+├── 📁 scripts
+│   ├── etl/
+│   └── scraping/
+├── 📁 docs
+│   └── changelog.md
+├── README.md
+└── .gitignore
