@@ -1,0 +1,41 @@
+📁 Data
+├── 📁 Raw
+│   ├── 📁 Fangraphs
+│   │   ├── top_100_2020.csv
+│   │   ├── top_100_2021.csv
+│   │   └── ...
+│   ├── 📁 Baseball_America
+│   │   ├── BA_top_100_2021.xlsx
+│   │   └── ...
+│   ├── 📁 MLB_Pipeline
+│   │   └── mlb_pipeline_2022.json
+│   └── 📁 Draft_Data
+│       ├── draft_results_2023.csv
+│       └── historical_draft_data.csv
+│
+├── 📁 Cleaned
+│   ├── fg_top_100_cleaned.csv
+│   ├── ba_top_100_cleaned.csv
+│   ├── mlb_pipeline_cleaned.json
+│   └── draft_data_cleaned.csv
+│
+├── 📁 Processed
+│   ├── master_prospect_rankings.csv
+│   ├── player_id_lookup.csv
+│   ├── rank_trend_index.csv
+│   └── prospect_volatility_scores.csv
+│
+├── 📁 Reference
+│   ├── position_codes.csv
+│   ├── grade_scale_20_80.csv
+│   └── source_metadata.json
+│
+├── 📁 Export
+│   ├── LookerStudio_exports/
+│   ├── Sheets_uploads/
+│   └── JSON_API_feeds/
+│
+└── 📁 Logs
+    ├── scrape_log_2025_05_06.txt
+    └── error_log.txt
+
